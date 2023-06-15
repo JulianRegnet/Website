@@ -1,0 +1,94 @@
+body{
+    background-image: url(../Bilder/wall.jpg);
+    font-family: Helvetica, Arial;
+    height: 770px;
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    width: 950px;
+    height: 240px;
+    clear: both;
+}
+
+main{
+    width: 950px;
+    height: 510px;
+    background-color: yellow;
+}
+
+main nav{
+    background-color: #DDDDDD;
+    padding-top: 22px;
+    width: 950px;
+    height: 60px;
+}
+
+main nav a{
+    padding-left: 5px;
+    font-size: 16pt;
+}
+
+main nav a:link, a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+main nav a:active, a:hover{
+    color: #B9C80F;
+    text-decoration: underline;
+}
+
+main article{
+    background-color: #FFFFFF;
+    padding: 10px;
+    width: 720px;
+    height: 450px;
+    float: left;
+}
+
+main adress{
+    height: 450px;
+    width: 190px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    float: right;
+    text-align: center;
+    font-size: 8pt;
+    font-style: italic;
+}
+
+footer{
+    width: 925px;
+    height: 20px;
+    background-color: black;
+    clear:both;
+    padding:5px;
+    padding-right: 20px;
+    text-align: right;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    color: #15A4D5;
+    font-size: 18pt;
+}
+
+h2{
+    font-size: 13pt;
+    text-decoration: underline;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table tr td{
+    border: 5px dotted;
+}
